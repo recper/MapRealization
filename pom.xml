@@ -18,15 +18,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.googlecode</groupId>
-                <artifactId>maven-idea-plugin</artifactId>
-                <version>1.6.1</version>
-            </plugin>
-        </plugins>
-    </build>
-
-    
 </project>

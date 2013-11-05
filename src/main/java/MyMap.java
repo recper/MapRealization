@@ -88,16 +88,23 @@ public class MyMap<Tkey,Tvalue> implements Map<Tkey,Tvalue> {
 
     @Override
     public Set<Tkey> keySet() {
-        return (Set<Tkey>) keys;  //To change body of implemented methods use File | Settings | File Templates.
+        return (Set<Tkey>) keys;
     }
 
     @Override
     public Collection<Tvalue> values() {
-        return values;  //To change body of implemented methods use File | Settings | File Templates.
+        return values;
     }
 
     @Override
     public Set<Entry<Tkey, Tvalue>> entrySet() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        Set<Entry<Tkey,Tvalue>> res = new HashSet<Entry<Tkey, Tvalue>>();
+        Iterator<Tkey> kitr = keys.iterator();
+        Iterator<Tvalue> vitr = values.iterator();
+        while (kitr.hasNext() && vitr.hasNext()){
+            res.add(new AbstractMap.SimpleEntry<Tkey, Tvalue>(kitr.next(),vitr.next()));
+        }
+
+        return res;
     }
 }
