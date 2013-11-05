@@ -8,9 +8,9 @@ import java.util.*;
  * To change this template use File | Settings | File Templates.
  */
 public class MyMap<Tkey,Tvalue> implements Map<Tkey,Tvalue> {
-    ArrayList<Tkey> keys;
-    ArrayList<Tvalue> values;
-    int size;
+    private ArrayList<Tkey> keys;
+    private ArrayList<Tvalue> values;
+    private int size;
 
     public MyMap(){
         keys = new ArrayList<Tkey>();
@@ -60,7 +60,9 @@ public class MyMap<Tkey,Tvalue> implements Map<Tkey,Tvalue> {
     public Tvalue remove(Object key) {
         if(!isEmpty() && keys.contains(key)){
             size--;
-            return values.remove(keys.indexOf(key));
+            Tvalue res = values.remove(keys.indexOf(key));
+            keys.remove(key);
+            return res;
         }
         return null;  //To change body of implemented methods use File | Settings | File Templates.
     }
@@ -73,7 +75,7 @@ public class MyMap<Tkey,Tvalue> implements Map<Tkey,Tvalue> {
 //            this.put(t.getKey(),t.getValue());
 //            size++;
 //        }
-        for(Map.Entry<Tkey,Tvalue> x : (Set<Entry<Tkey,Tvalue>>)m.entrySet()){
+        for(Entry<? extends Tkey, ? extends Tvalue> x : m.entrySet()){
             this.put(x.getKey(),x.getValue());
             size++;
         }
@@ -88,7 +90,11 @@ public class MyMap<Tkey,Tvalue> implements Map<Tkey,Tvalue> {
 
     @Override
     public Set<Tkey> keySet() {
-        return (Set<Tkey>) keys;
+        Set<Tkey> res = new HashSet<Tkey>();
+        for(Tkey x : keys){
+            res.add(x);
+        }
+        return res;
     }
 
     @Override
