@@ -8,10 +8,12 @@
     <file path="/Calc.java" changelist="401f1dbc-3d77-4ea4-83a9-9fc654ba4de3" time="1383464759889" ignored="false" />
     <file path="/Program.java" changelist="401f1dbc-3d77-4ea4-83a9-9fc654ba4de3" time="1383465067935" ignored="false" />
     <file path="/TestCalc.java" changelist="401f1dbc-3d77-4ea4-83a9-9fc654ba4de3" time="1383465262541" ignored="false" />
-    <file path="/fragment.java" changelist="401f1dbc-3d77-4ea4-83a9-9fc654ba4de3" time="1383675644354" ignored="false" />
+    <file path="/fragment.java" changelist="401f1dbc-3d77-4ea4-83a9-9fc654ba4de3" time="1383676587380" ignored="false" />
     <file path="/CalcTest.java" changelist="401f1dbc-3d77-4ea4-83a9-9fc654ba4de3" time="1383468876807" ignored="false" />
-    <file path="/MyMap.java" changelist="401f1dbc-3d77-4ea4-83a9-9fc654ba4de3" time="1383675624621" ignored="false" />
+    <file path="/MyMap.java" changelist="401f1dbc-3d77-4ea4-83a9-9fc654ba4de3" time="1383677269637" ignored="false" />
     <file path="/pom.xml" changelist="401f1dbc-3d77-4ea4-83a9-9fc654ba4de3" time="1383634380199" ignored="false" />
+    <file path="/MyMapTest.java" changelist="401f1dbc-3d77-4ea4-83a9-9fc654ba4de3" time="1383677573037" ignored="false" />
+    <file path="/Dummy.txt" changelist="401f1dbc-3d77-4ea4-83a9-9fc654ba4de3" time="1383676548558" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="19" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyMap.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+            <state line="41" column="0" selection-start="248" selection-end="822" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="method#MyMap#0;class#MyMap#0" expanded="false" />
                 <element signature="method#size#0;class#MyMap#0" expanded="false" />
@@ -94,12 +87,11 @@
                 <element signature="method#get#0;class#MyMap#0" expanded="false" />
                 <element signature="method#put#0;class#MyMap#0" expanded="false" />
                 <element signature="method#remove#0;class#MyMap#0" expanded="false" />
-                <element signature="method#putAll#0;class#MyMap#0" expanded="false" />
                 <element signature="method#clear#0;class#MyMap#0" expanded="false" />
                 <element signature="method#keySet#0;class#MyMap#0" expanded="false" />
                 <element signature="method#values#0;class#MyMap#0" expanded="false" />
                 <element signature="method#entrySet#0;class#MyMap#0" expanded="false" />
-                <element signature="e#2408#2429#0" expanded="true" />
+                <element signature="e#2424#2445#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,8 +100,14 @@
       <file leaf-file-name="MyMapTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="30" selection-start="231" selection-end="231" vertical-scroll-proportion="0.31166667">
-              <folding />
+            <state line="33" column="10" selection-start="964" selection-end="964" vertical-scroll-proportion="0.47715735">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testSize#0;class#MyMapTest#0" expanded="false" />
+                <element signature="e#345#362#0" expanded="true" />
+                <element signature="method#testIsEmpty#0;class#MyMapTest#0" expanded="false" />
+                <element signature="e#719#736#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -200,6 +198,54 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MavenProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MapRealization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MavenProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MapRealization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -234,7 +280,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalcTest">
+  <component name="RunManager" selected="JUnit.MyMapTest">
     <configuration default="false" name="All in MavenProject" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="MavenProject" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -257,17 +303,17 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CalcTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="MavenProject" />
+    <configuration default="false" name="MyMapTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Map Realization" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalcTest" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="MyMapTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -369,11 +415,11 @@
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in MavenProject" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CalcTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MyMapTest" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CalcTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyMapTest" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.All in MavenProject" />
       </list>
     </recent_temporary>
@@ -420,17 +466,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -526,12 +572,11 @@
             <element signature="method#get#0;class#MyMap#0" expanded="false" />
             <element signature="method#put#0;class#MyMap#0" expanded="false" />
             <element signature="method#remove#0;class#MyMap#0" expanded="false" />
-            <element signature="method#putAll#0;class#MyMap#0" expanded="false" />
             <element signature="method#clear#0;class#MyMap#0" expanded="false" />
             <element signature="method#keySet#0;class#MyMap#0" expanded="false" />
             <element signature="method#values#0;class#MyMap#0" expanded="false" />
             <element signature="method#entrySet#0;class#MyMap#0" expanded="false" />
-            <element signature="e#2408#2429#0" expanded="true" />
+            <element signature="e#2424#2445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -562,12 +607,11 @@
             <element signature="method#get#0;class#MyMap#0" expanded="false" />
             <element signature="method#put#0;class#MyMap#0" expanded="false" />
             <element signature="method#remove#0;class#MyMap#0" expanded="false" />
-            <element signature="method#putAll#0;class#MyMap#0" expanded="false" />
             <element signature="method#clear#0;class#MyMap#0" expanded="false" />
             <element signature="method#keySet#0;class#MyMap#0" expanded="false" />
             <element signature="method#values#0;class#MyMap#0" expanded="false" />
             <element signature="method#entrySet#0;class#MyMap#0" expanded="false" />
-            <element signature="e#2408#2429#0" expanded="true" />
+            <element signature="e#2424#2445#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -575,13 +619,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="472" column="13" selection-start="17067" selection-end="17067" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="347" column="24" selection-start="16191" selection-end="16211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Program.java">
@@ -598,9 +635,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="347" column="25" selection-start="16212" selection-end="16212" vertical-scroll-proportion="1.3680203">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+        <state line="41" column="0" selection-start="248" selection-end="822" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#MyMap#0;class#MyMap#0" expanded="false" />
             <element signature="method#size#0;class#MyMap#0" expanded="false" />
@@ -610,20 +654,25 @@
             <element signature="method#get#0;class#MyMap#0" expanded="false" />
             <element signature="method#put#0;class#MyMap#0" expanded="false" />
             <element signature="method#remove#0;class#MyMap#0" expanded="false" />
-            <element signature="method#putAll#0;class#MyMap#0" expanded="false" />
             <element signature="method#clear#0;class#MyMap#0" expanded="false" />
             <element signature="method#keySet#0;class#MyMap#0" expanded="false" />
             <element signature="method#values#0;class#MyMap#0" expanded="false" />
             <element signature="method#entrySet#0;class#MyMap#0" expanded="false" />
-            <element signature="e#2408#2429#0" expanded="true" />
+            <element signature="e#2424#2445#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="231" selection-end="231" vertical-scroll-proportion="0.31166667">
-          <folding />
+        <state line="33" column="10" selection-start="964" selection-end="964" vertical-scroll-proportion="0.47715735">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testSize#0;class#MyMapTest#0" expanded="false" />
+            <element signature="e#345#362#0" expanded="true" />
+            <element signature="method#testIsEmpty#0;class#MyMapTest#0" expanded="false" />
+            <element signature="e#719#736#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -679,11 +728,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MavenProject</last-edited>
+          <last-edited>Map Realization</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -691,6 +741,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
